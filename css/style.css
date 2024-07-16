@@ -93,8 +93,8 @@ body {
 }
 
 #image {
-  width: 300px; /* Adjust as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 300px;
+  height: auto;
 }
 .footer {
   background-color: white;
