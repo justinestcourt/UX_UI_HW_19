@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: thin;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgb(255, 215, 215);
+  color: rgb(205, 80, 80);
+  font-weight: bold;
+  border-radius: 5px;
+}
+.content-section {
+  text-align: center;
+}
+
+.full-width-image {
+  width: 100%;/
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.text-overlay {
+  width: 100%;
+  color: rgb(206, 91, 91);
+}
+
+.text-overlay h1 {
+  font-size: 3.2rem;
+  margin-bottom: 200;
+  font-weight: thin;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content {
+  display: inline-block;
+  font-size: 40pt;
+}
+.quote-container {
+  width: 60%; 
+  text-align: left;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.quote {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #333; 
+}
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#image {
+  width: 300px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.footer {
+  background-color: white;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer-section {
+  margin: 0 2rem;
+}
+
+.footer-heading {
+  margin: 0;
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 300;
+  cursor: pointer;
+  transition: text-decoration 0.3s;
+  margin-top: 200px;
+}
+
+.footer-heading:hover {
+  text-decoration: underline;
+  color: rgb(198, 57, 85);
+}
